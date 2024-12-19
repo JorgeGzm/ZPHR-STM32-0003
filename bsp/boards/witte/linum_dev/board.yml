@@ -1,0 +1,6 @@
+board:
+  name: linum_dev
+  full_name: Linum dev Board
+  vendor: witte
+  socs:
+    - name: stm32h753xx

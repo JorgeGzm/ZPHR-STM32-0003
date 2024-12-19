@@ -1,0 +1,334 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/work/11-Zephyr/ZPHR-STM32-0003/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ALARM_CHANNEL_ID	linum/src/main.c	/^#define ALARM_CHANNEL_ID /;"	d	file:
+BOARD_LINUM	linum/Kconfig.linum	/^config BOARD_LINUM$/;"	c
+COMM_INFO_SIZE_HOST_PARAM	linum/src/network.h	/^#define COMM_INFO_SIZE_HOST_PARAM /;"	d
+COMM_LENGTH_ADDR_IPV4	linum/src/network.h	/^#define COMM_LENGTH_ADDR_IPV4 /;"	d
+COMM_LENGTH_MAC_ADDR	linum/src/network.h	/^#define COMM_LENGTH_MAC_ADDR /;"	d
+COMM_MAX_NETWORK_LIST_SIZE	linum/src/network.h	/^#define COMM_MAX_NETWORK_LIST_SIZE /;"	d
+COMM_SIZE_FLAGS_BUFF	linum/src/network.h	/^#define COMM_SIZE_FLAGS_BUFF /;"	d
+COMM_SIZE_HOST_BUFF	linum/src/network.h	/^#define COMM_SIZE_HOST_BUFF /;"	d
+COMM_SIZE_PASSWORD_BUFF	linum/src/network.h	/^#define COMM_SIZE_PASSWORD_BUFF /;"	d
+COMM_SIZE_SNTP_BUFF	linum/src/network.h	/^#define COMM_SIZE_SNTP_BUFF /;"	d
+COMM_SIZE_SSID_BUFF	linum/src/network.h	/^#define COMM_SIZE_SSID_BUFF /;"	d
+COMM_SIZE_TOPIC_MQTT	linum/src/network.h	/^#define COMM_SIZE_TOPIC_MQTT /;"	d
+CONFIG_BOARD_LINUM	linum/Kconfig.linum	/^config BOARD_LINUM$/;"	c
+CONFIG_MQTT_DEVICE_NAME	linum/Kconfig	/^config MQTT_DEVICE_NAME$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_PAYLOAD_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_PAYLOAD_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_RX_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_RX_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_SERVER_DOMAIN_NAME	linum/Kconfig	/^config MQTT_SERVICE_SERVER_DOMAIN_NAME$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_SERVER_FALLBACK_IP_ADDRESS	linum/Kconfig	/^config MQTT_SERVICE_SERVER_FALLBACK_IP_ADDRESS$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_SERVER_PORT	linum/Kconfig	/^config MQTT_SERVICE_SERVER_PORT$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_THREAD_STACK_SIZE	linum/Kconfig	/^        config MQTT_SERVICE_THREAD_STACK_SIZE$/;"	c	menu:Witte-Tecnology
+CONFIG_MQTT_SERVICE_TX_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_TX_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+CONFIG_NET_L2_ETHERNET	linum/Kconfig.defconfig	/^config NET_L2_ETHERNET$/;"	c
+DB_FILE_SIZE	linum/src/database_settings.c	/^#define DB_FILE_SIZE /;"	d	file:
+DB_MUTEX_TIMEOUT_MS	linum/src/database_settings.c	/^#define DB_MUTEX_TIMEOUT_MS /;"	d	file:
+DEFAULT_PASSWORD	linum/src/login_shell.c	/^#define DEFAULT_PASSWORD /;"	d	file:
+DELAY	linum/src/main.c	/^#define DELAY /;"	d	file:
+EXPORT_OPTIONAL_FUNCTIONS	linum/src/jRead.h	/^#define EXPORT_OPTIONAL_FUNCTIONS$/;"	d
+JREAD_ARRAY	linum/src/jRead.h	/^#define JREAD_ARRAY	/;"	d
+JREAD_BOOL	linum/src/jRead.h	/^#define JREAD_BOOL	/;"	d
+JREAD_COLON	linum/src/jRead.h	/^#define JREAD_COLON	/;"	d
+JREAD_COMMA	linum/src/jRead.h	/^#define JREAD_COMMA	/;"	d
+JREAD_EARRAY	linum/src/jRead.h	/^#define JREAD_EARRAY	/;"	d
+JREAD_EOBJECT	linum/src/jRead.h	/^#define JREAD_EOBJECT	/;"	d
+JREAD_EOL	linum/src/jRead.h	/^#define JREAD_EOL	/;"	d
+JREAD_ERROR	linum/src/jRead.h	/^#define JREAD_ERROR	/;"	d
+JREAD_KEY	linum/src/jRead.h	/^#define JREAD_KEY	/;"	d
+JREAD_NULL	linum/src/jRead.h	/^#define JREAD_NULL	/;"	d
+JREAD_NUMBER	linum/src/jRead.h	/^#define JREAD_NUMBER	/;"	d
+JREAD_OBJECT	linum/src/jRead.h	/^#define JREAD_OBJECT	/;"	d
+JREAD_QPARAM	linum/src/jRead.h	/^#define JREAD_QPARAM	/;"	d
+JREAD_STRING	linum/src/jRead.h	/^#define JREAD_STRING	/;"	d
+JSON_PAYLOAD_BUFFER_SIZE	linum/src/database_settings.c	/^#define JSON_PAYLOAD_BUFFER_SIZE /;"	d	file:
+JWC	linum/src/jWrite.c	/^#define JWC(/;"	d	file:
+JWC_DECL	linum/src/jWrite.c	/^#define JWC_DECL	/;"	d	file:
+JWC_DECL	linum/src/jWrite.c	/^#define JWC_DECL /;"	d	file:
+JWC_DECL0	linum/src/jWrite.c	/^#define JWC_DECL0 /;"	d	file:
+JWC_DECL0	linum/src/jWrite.c	/^#define JWC_DECL0$/;"	d	file:
+JWC_PARAM	linum/src/jWrite.c	/^#define JWC_PARAM	/;"	d	file:
+JWC_PARAM	linum/src/jWrite.c	/^#define JWC_PARAM /;"	d	file:
+JWC_PARAM0	linum/src/jWrite.c	/^#define JWC_PARAM0 /;"	d	file:
+JWC_PARAM0	linum/src/jWrite.c	/^#define JWC_PARAM0$/;"	d	file:
+JWRITE_BUF_FULL	linum/src/jWrite.h	/^#define JWRITE_BUF_FULL /;"	d
+JWRITE_NEST_ERROR	linum/src/jWrite.h	/^#define JWRITE_NEST_ERROR	/;"	d
+JWRITE_NOT_ARRAY	linum/src/jWrite.h	/^#define JWRITE_NOT_ARRAY	/;"	d
+JWRITE_NOT_OBJECT	linum/src/jWrite.h	/^#define JWRITE_NOT_OBJECT	/;"	d
+JWRITE_OK	linum/src/jWrite.h	/^#define JWRITE_OK /;"	d
+JWRITE_STACK_DEPTH	linum/src/jWrite.h	/^#define JWRITE_STACK_DEPTH /;"	d
+JWRITE_STACK_EMPTY	linum/src/jWrite.h	/^#define JWRITE_STACK_EMPTY	/;"	d
+JWRITE_STACK_FULL	linum/src/jWrite.h	/^#define JWRITE_STACK_FULL	/;"	d
+JW_ARRAY	linum/src/jWrite.h	/^	JW_ARRAY$/;"	e	enum:jwNodeType
+JW_COMPACT	linum/src/jWrite.h	/^#define JW_COMPACT /;"	d
+JW_OBJECT	linum/src/jWrite.h	/^	JW_OBJECT= 1,$/;"	e	enum:jwNodeType
+JW_PRETTY	linum/src/jWrite.h	/^#define JW_PRETTY /;"	d
+LED0	linum/src/main.c	/^#define LED0 /;"	d	file:
+LED1	linum/src/main.c	/^#define LED1 /;"	d	file:
+MQTT_DEVICE_NAME	linum/Kconfig	/^config MQTT_DEVICE_NAME$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_PAYLOAD_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_PAYLOAD_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_RX_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_RX_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_SERVER_DOMAIN_NAME	linum/Kconfig	/^config MQTT_SERVICE_SERVER_DOMAIN_NAME$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_SERVER_FALLBACK_IP_ADDRESS	linum/Kconfig	/^config MQTT_SERVICE_SERVER_FALLBACK_IP_ADDRESS$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_SERVER_PORT	linum/Kconfig	/^config MQTT_SERVICE_SERVER_PORT$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_THREAD_STACK_SIZE	linum/Kconfig	/^        config MQTT_SERVICE_THREAD_STACK_SIZE$/;"	c	menu:Witte-Tecnology
+MQTT_SERVICE_TX_BUFFER_SIZE	linum/Kconfig	/^config MQTT_SERVICE_TX_BUFFER_SIZE$/;"	c	menu:Witte-Tecnology
+NET_L2_ETHERNET	linum/Kconfig.defconfig	/^config NET_L2_ETHERNET$/;"	c
+PARTITION_NODE	linum/src/database_settings.c	/^#define PARTITION_NODE /;"	d	file:
+QUERY_QUOTE	linum/src/jRead.c	/^#define QUERY_QUOTE	/;"	d	file:
+QUERY_QUOTE	linum/src/jRead.c	/^#define QUERY_QUOTE /;"	d	file:
+SERVER_DEFAULT_HOST_ADDR	linum/src/database_settings.c	/^#define SERVER_DEFAULT_HOST_ADDR /;"	d	file:
+SERVER_DEFAULT_PORT	linum/src/database_settings.c	/^#define SERVER_DEFAULT_PORT /;"	d	file:
+UPDATE_MAX_FILE_NAME_BUFF_SIZE	linum/src/params_common.h	/^#define UPDATE_MAX_FILE_NAME_BUFF_SIZE /;"	d
+UPDATE_MAX_HASH_BUFF_SIZE	linum/src/params_common.h	/^#define UPDATE_MAX_HASH_BUFF_SIZE /;"	d
+UPDATE_MAX_VERSION_BUFF_SIZE	linum/src/params_common.h	/^#define UPDATE_MAX_VERSION_BUFF_SIZE /;"	d
+WIFI_SETTING_DHCP	linum/src/database_settings.c	/^#define WIFI_SETTING_DHCP /;"	d	file:
+WIFI_SETTING_DNS	linum/src/database_settings.c	/^#define WIFI_SETTING_DNS /;"	d	file:
+WIFI_SETTING_DNS2	linum/src/database_settings.c	/^#define WIFI_SETTING_DNS2 /;"	d	file:
+WIFI_SETTING_GATEWAY	linum/src/database_settings.c	/^#define WIFI_SETTING_GATEWAY /;"	d	file:
+WIFI_SETTING_IP	linum/src/database_settings.c	/^#define WIFI_SETTING_IP /;"	d	file:
+WIFI_SETTING_NETMASK	linum/src/database_settings.c	/^#define WIFI_SETTING_NETMASK /;"	d	file:
+WIFI_SETTING_PASSWORD	linum/src/database_settings.c	/^#define WIFI_SETTING_PASSWORD /;"	d	file:
+WIFI_SETTING_SNTP	linum/src/database_settings.c	/^#define WIFI_SETTING_SNTP /;"	d	file:
+WIFI_SETTING_SNTP2	linum/src/database_settings.c	/^#define WIFI_SETTING_SNTP2 /;"	d	file:
+WIFI_SETTING_SSID	linum/src/database_settings.c	/^#define WIFI_SETTING_SSID /;"	d	file:
+Witte-Tecnology	linum/Kconfig	/^menu "Witte-Tecnology"$/;"	m
+Zephyr Kernel	linum/Kconfig	/^menu "Zephyr Kernel"$/;"	m
+_BSP_RTC_H_	linum/src/bsp_rtc.h	/^#define _BSP_RTC_H_$/;"	d
+_DATABASE_SETTINGS_H_	linum/src/database_settings.h	/^#define	_DATABASE_SETTINGS_H_$/;"	d
+_LOGIN_SHELL_H_	linum/src/login_shell.h	/^#define	_LOGIN_SHELL_H_$/;"	d
+_NETWORK_H_	linum/src/network.h	/^#define	_NETWORK_H_$/;"	d
+_PARAMS_COMMON_H_	linum/src/params_common.h	/^#define	_PARAMS_COMMON_H_$/;"	d
+_jwArr	linum/src/jWrite.c	/^int _jwArr( JWC_DECL0 )$/;"	f	typeref:typename:int
+_jwObj	linum/src/jWrite.c	/^int _jwObj( JWC_DECL const char *key )$/;"	f	typeref:typename:int
+access	linum/src/network.h	/^  struct wifi_network access;$/;"	m	struct:wifi_network_settings	typeref:struct:wifi_network
+app	linum/src/params_common.h	/^    struct app_settings app;$/;"	m	struct:database_settings	typeref:struct:app_settings
+app_settings	linum/src/params_common.h	/^struct app_settings$/;"	s
+blue_led	linum/linum.dts	/^		blue_led: led_2 {$/;"	l	label:leds
+boot_partition	linum/linum.dts	/^		boot_partition: partition@0 {$/;"	l
+bsp_rtc_get	linum/src/bsp_rtc.c	/^int bsp_rtc_get(struct rtc_time *rtctime)$/;"	f	typeref:typename:int
+bsp_rtc_init	linum/src/bsp_rtc.c	/^int bsp_rtc_init(void)$/;"	f	typeref:typename:int
+bsp_rtc_set	linum/src/bsp_rtc.c	/^int bsp_rtc_set(const struct rtc_time rtctime)$/;"	f	typeref:typename:int
+bsp_rtc_set_timestap	linum/src/bsp_rtc.c	/^int bsp_rtc_set_timestap(time_t *timer_set)$/;"	f	typeref:typename:int
+bssid	linum/src/network.h	/^  char bssid[COMM_LENGTH_MAC_ADDR];$/;"	m	struct:wifi_network_info	typeref:typename:char[]
+buffer	linum/src/jWrite.h	/^	char *buffer;						\/\/ pointer to application's buffer$/;"	m	struct:jWriteControl	typeref:typename:char *
+buflen	linum/src/jWrite.h	/^	unsigned int buflen;				\/\/ length of buffer$/;"	m	struct:jWriteControl	typeref:typename:unsigned int
+bufp	linum/src/jWrite.h	/^	char *bufp;							\/\/ current write position in buffer$/;"	m	struct:jWriteControl	typeref:typename:char *
+bytelen	linum/src/jRead.h	/^	int bytelen;			\/\/ byte length of element (e.g. length of string, array text "[ ... ]" etc.)$/;"	m	struct:jReadElement	typeref:typename:int
+callNo	linum/src/jWrite.h	/^	int callNo;							\/\/ API call on which error occurred$/;"	m	struct:jWriteControl	typeref:typename:int
+check_passwd	linum/src/login_shell.c	/^static int check_passwd(char *passwd)$/;"	f	typeref:typename:int	file:
+cmd_login	linum/src/login_shell.c	/^static int cmd_login(const struct shell *sh, size_t argc, char **argv)$/;"	f	typeref:typename:int	file:
+cmd_logout	linum/src/login_shell.c	/^static int cmd_logout(const struct shell *sh, size_t argc, char **argv)$/;"	f	typeref:typename:int	file:
+connection_settings	linum/src/network.h	/^struct connection_settings$/;"	s
+crc	linum/src/params_common.h	/^    uint32_t crc;$/;"	m	struct:database_settings	typeref:typename:uint32_t
+dataType	linum/src/jRead.h	/^	int dataType;			\/\/ one of JREAD_...$/;"	m	struct:jReadElement	typeref:typename:int
+database_settings	linum/src/params_common.h	/^struct database_settings$/;"	s
+db_app_get_server_host	linum/src/database_settings.c	/^int db_app_get_server_host(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_app_get_server_port	linum/src/database_settings.c	/^int db_app_get_server_port(uint16_t *port)$/;"	f	typeref:typename:int
+db_app_get_settings	linum/src/database_settings.c	/^int db_app_get_settings(struct app_settings *application)$/;"	f	typeref:typename:int
+db_app_get_wakeup_time_sec	linum/src/database_settings.c	/^int db_app_get_wakeup_time_sec(uint32_t *seconds)$/;"	f	typeref:typename:int
+db_app_set_server_host	linum/src/database_settings.c	/^int db_app_set_server_host(const char *host)$/;"	f	typeref:typename:int
+db_app_set_server_port	linum/src/database_settings.c	/^int db_app_set_server_port(uint16_t port)$/;"	f	typeref:typename:int
+db_app_set_wakeup_time_sec	linum/src/database_settings.c	/^int db_app_set_wakeup_time_sec(uint32_t seconds)$/;"	f	typeref:typename:int
+db_fs_read_settings	linum/src/database_settings.c	/^int db_fs_read_settings(const char *file_name, struct database_settings *settings)$/;"	f	typeref:typename:int
+db_fs_write_settings	linum/src/database_settings.c	/^static int db_fs_write_settings(const char *file_name, struct database_settings *settings)$/;"	f	typeref:typename:int	file:
+db_get_string	linum/src/database_settings.c	/^static int db_get_string(const char *origin, uint16_t origin_len,$/;"	f	typeref:typename:int	file:
+db_json_decode_settings	linum/src/database_settings.c	/^int db_json_decode_settings(const char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_json_tests	linum/src/database_settings.c	/^int db_json_tests(void)$/;"	f	typeref:typename:int
+db_kernel_init	linum/src/database_settings.h	/^static int db_kernel_init(void)$/;"	f	typeref:typename:int
+db_load_default_settings	linum/src/database_settings.c	/^int db_load_default_settings(void)$/;"	f	typeref:typename:int
+db_mutex	linum/src/database_settings.c	/^static struct k_mutex db_mutex;$/;"	v	typeref:struct:k_mutex	file:
+db_mutex_lock	linum/src/database_settings.c	/^static int db_mutex_lock(void)$/;"	f	typeref:typename:int	file:
+db_mutex_unlock	linum/src/database_settings.c	/^static void db_mutex_unlock(void)$/;"	f	typeref:typename:void	file:
+db_print_settings	linum/src/database_settings.c	/^static void db_print_settings(struct database_settings *settings)$/;"	f	typeref:typename:void	file:
+db_save_settings	linum/src/database_settings.c	/^int db_save_settings(void)$/;"	f	typeref:typename:int
+db_set_string	linum/src/database_settings.c	/^static int db_set_string(const char *origin, uint16_t origin_len,$/;"	f	typeref:typename:int	file:
+db_set_void	linum/src/database_settings.c	/^static int db_set_void(const void *origin, uint16_t origin_len,$/;"	f	typeref:typename:int	file:
+db_settings_init	linum/src/database_settings.c	/^int db_settings_init(struct database_settings *settings)$/;"	f	typeref:typename:int
+db_shell_setting_app	linum/src/database_settings.c	/^static int db_shell_setting_app(const struct shell *shell, size_t argc, char **argv)$/;"	f	typeref:typename:int	file:
+db_shell_setting_wifi	linum/src/database_settings.c	/^static int db_shell_setting_wifi(const struct shell *shell, size_t argc, char **argv)$/;"	f	typeref:typename:int	file:
+db_shell_show	linum/src/database_settings.c	/^static int db_shell_show(const struct shell *shell, size_t argc, char **argv)$/;"	f	typeref:typename:int	file:
+db_show_settings	linum/src/database_settings.c	/^int db_show_settings(void)$/;"	f	typeref:typename:int
+db_str_is_numeric	linum/src/database_settings.c	/^static bool db_str_is_numeric(const char *str)$/;"	f	typeref:typename:bool	file:
+db_update_get_file	linum/src/database_settings.c	/^int db_update_get_file(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_update_get_file_size	linum/src/database_settings.c	/^int db_update_get_file_size(uint32_t *file_size)$/;"	f	typeref:typename:int
+db_update_get_fw_version	linum/src/database_settings.c	/^int db_update_get_fw_version(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_update_get_hash	linum/src/database_settings.c	/^int db_update_get_hash(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_update_get_hw_version	linum/src/database_settings.c	/^int db_update_get_hw_version(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_update_get_settings	linum/src/database_settings.c	/^int db_update_get_settings(struct update_settings *update)$/;"	f	typeref:typename:int
+db_update_set_file	linum/src/database_settings.c	/^int db_update_set_file(const char *file)$/;"	f	typeref:typename:int
+db_update_set_file_size	linum/src/database_settings.c	/^int db_update_set_file_size(uint32_t file_size)$/;"	f	typeref:typename:int
+db_update_set_fw_version	linum/src/database_settings.c	/^int db_update_set_fw_version(const char *fw_version)$/;"	f	typeref:typename:int
+db_update_set_hash	linum/src/database_settings.c	/^int db_update_set_hash(const char *hash)$/;"	f	typeref:typename:int
+db_update_set_hw_version	linum/src/database_settings.c	/^int db_update_set_hw_version(const char *hw_version)$/;"	f	typeref:typename:int
+db_wifi_access_get_pwd	linum/src/database_settings.c	/^int db_wifi_access_get_pwd(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_access_get_ssid	linum/src/database_settings.c	/^int db_wifi_access_get_ssid(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_access_set_pwd	linum/src/database_settings.c	/^int db_wifi_access_set_pwd(const char *pwd)$/;"	f	typeref:typename:int
+db_wifi_access_set_ssid	linum/src/database_settings.c	/^int db_wifi_access_set_ssid(const char *ssid)$/;"	f	typeref:typename:int
+db_wifi_get_settings	linum/src/database_settings.c	/^int db_wifi_get_settings(struct wifi_settings *wifi)$/;"	f	typeref:typename:int
+db_wifi_network_get_dhcp	linum/src/database_settings.c	/^int db_wifi_network_get_dhcp(bool *enable)$/;"	f	typeref:typename:int
+db_wifi_network_get_dns	linum/src/database_settings.c	/^int db_wifi_network_get_dns(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_dns2	linum/src/database_settings.c	/^int db_wifi_network_get_dns2(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_gateway	linum/src/database_settings.c	/^int db_wifi_network_get_gateway(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_ip	linum/src/database_settings.c	/^int db_wifi_network_get_ip(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_netmask	linum/src/database_settings.c	/^int db_wifi_network_get_netmask(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_sntp	linum/src/database_settings.c	/^int db_wifi_network_get_sntp(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_get_sntp2	linum/src/database_settings.c	/^int db_wifi_network_get_sntp2(char *buf, uint16_t buflen)$/;"	f	typeref:typename:int
+db_wifi_network_set_dhcp	linum/src/database_settings.c	/^int db_wifi_network_set_dhcp(bool enable)$/;"	f	typeref:typename:int
+db_wifi_network_set_dns	linum/src/database_settings.c	/^int db_wifi_network_set_dns(const char *dns)$/;"	f	typeref:typename:int
+db_wifi_network_set_dns2	linum/src/database_settings.c	/^int db_wifi_network_set_dns2(const char *dns2)$/;"	f	typeref:typename:int
+db_wifi_network_set_gateway	linum/src/database_settings.c	/^int db_wifi_network_set_gateway(const char *gateway)$/;"	f	typeref:typename:int
+db_wifi_network_set_ip	linum/src/database_settings.c	/^int db_wifi_network_set_ip(const char *ip)$/;"	f	typeref:typename:int
+db_wifi_network_set_netmask	linum/src/database_settings.c	/^int db_wifi_network_set_netmask(const char *netmask)$/;"	f	typeref:typename:int
+db_wifi_network_set_sntp	linum/src/database_settings.c	/^int db_wifi_network_set_sntp(const char *sntp)$/;"	f	typeref:typename:int
+db_wifi_network_set_sntp2	linum/src/database_settings.c	/^int db_wifi_network_set_sntp2(const char *sntp2)$/;"	f	typeref:typename:int
+dhcp_enable	linum/src/network.h	/^  bool dhcp_enable;$/;"	m	struct:network	typeref:typename:bool
+dns	linum/src/network.h	/^  char dns[COMM_LENGTH_ADDR_IPV4];$/;"	m	struct:network	typeref:typename:char[]
+dns2	linum/src/network.h	/^  char dns2[COMM_LENGTH_ADDR_IPV4]; $/;"	m	struct:network	typeref:typename:char[]
+elementNo	linum/src/jWrite.h	/^	int elementNo;$/;"	m	struct:jwNodeStack	typeref:typename:int
+elements	linum/src/jRead.h	/^	int elements;			\/\/ number of elements (e.g. elements in array or object)$/;"	m	struct:jReadElement	typeref:typename:int
+encryption	linum/src/network.h	/^  char encryption[COMM_SIZE_FLAGS_BUFF];$/;"	m	struct:wifi_network_info	typeref:typename:char[]
+error	linum/src/jRead.h	/^	int error;				\/\/ error value if dataType == JREAD_ERROR$/;"	m	struct:jReadElement	typeref:typename:int
+error	linum/src/jWrite.h	/^	int error;							\/\/ error code$/;"	m	struct:jWriteControl	typeref:typename:int
+file	linum/src/params_common.h	/^    char file[UPDATE_MAX_FILE_NAME_BUFF_SIZE];$/;"	m	struct:update_settings	typeref:typename:char[]
+fileSize	linum/src/params_common.h	/^    uint32_t fileSize;$/;"	m	struct:update_settings	typeref:typename:uint32_t
+file_params	linum/src/database_settings.c	/^static const char file_params[] = {"params.cfg"};$/;"	v	typeref:typename:const char[]	file:
+frequency	linum/src/network.h	/^  uint16_t frequency;$/;"	m	struct:wifi_network_info	typeref:typename:uint16_t
+fwVersion	linum/src/params_common.h	/^    char fwVersion[UPDATE_MAX_VERSION_BUFF_SIZE];$/;"	m	struct:update_settings	typeref:typename:char[]
+g_jWriteControl	linum/src/jWrite.c	/^struct jWriteControl g_jWriteControl;			\/\/ global control struct$/;"	v	typeref:struct:jWriteControl
+g_led0	linum/src/main.c	/^const struct gpio_dt_spec g_led0 = GPIO_DT_SPEC_GET(LED0, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+g_led1	linum/src/main.c	/^const struct gpio_dt_spec g_led1 = GPIO_DT_SPEC_GET(LED1, gpios);$/;"	v	typeref:typename:const struct gpio_dt_spec
+g_payload_msg	linum/src/main.c	/^static char g_payload_msg[50];$/;"	v	typeref:typename:char[50]	file:
+g_rtc	linum/src/bsp_rtc.c	/^static const struct device *g_rtc = DEVICE_DT_GET(DT_NODELABEL(rtc));$/;"	v	typeref:typename:const struct device *	file:
+gateway	linum/src/network.h	/^  char gateway[COMM_LENGTH_ADDR_IPV4];$/;"	m	struct:network	typeref:typename:char[]
+global_settings	linum/src/database_settings.c	/^static struct database_settings global_settings;$/;"	v	typeref:struct:database_settings	file:
+global_settings	linum/src/main.c	/^struct database_settings global_settings;$/;"	v	typeref:struct:database_settings
+global_test_json_settings	linum/src/database_settings.c	/^static const char global_test_json_settings[] =$/;"	v	typeref:typename:const char[]	file:
+green_led	linum/linum.dts	/^		green_led: led_0 {$/;"	l	label:leds
+hash	linum/src/params_common.h	/^    char hash[UPDATE_MAX_HASH_BUFF_SIZE];$/;"	m	struct:update_settings	typeref:typename:char[]
+host	linum/src/network.h	/^  char host[COMM_SIZE_HOST_BUFF];$/;"	m	struct:connection_settings	typeref:typename:char[]
+hwVersion	linum/src/params_common.h	/^    char hwVersion[UPDATE_MAX_VERSION_BUFF_SIZE];$/;"	m	struct:update_settings	typeref:typename:char[]
+init_gpio	linum/src/main.c	/^static int init_gpio(void)$/;"	f	typeref:typename:int	file:
+ip_address	linum/src/network.h	/^  char ip_address[COMM_LENGTH_ADDR_IPV4];$/;"	m	struct:network	typeref:typename:char[]
+isPretty	linum/src/jWrite.h	/^	int isPretty;						\/\/ 1= pretty output (inserts \\n and spaces)$/;"	m	struct:jWriteControl	typeref:typename:int
+is_connected	linum/src/network.h	/^  bool is_connected; $/;"	m	struct:wifi_network_connection	typeref:typename:bool
+jRead	linum/src/jRead.c	/^const char * jRead( const char *pJson, const char *pQuery, struct jReadElement *pResult )$/;"	f	typeref:typename:const char *
+jReadArrayStep	linum/src/jRead.c	/^const char *jReadArrayStep( const char *pJsonArray, struct jReadElement *pResult )$/;"	f	typeref:typename:const char *
+jReadCountArray	linum/src/jRead.c	/^const char * jReadCountArray( const char *pJson, struct jReadElement *pResult )$/;"	f	typeref:typename:const char *
+jReadCountObject	linum/src/jRead.c	/^const char * jReadCountObject( const char *pJson, struct jReadElement *pResult, int keyIndex )$/;"	f	typeref:typename:const char *
+jReadElement	linum/src/jRead.h	/^struct jReadElement{$/;"	s
+jReadErrorStrings	linum/src/jRead.c	/^char * jReadErrorStrings[]={$/;"	v	typeref:typename:char * []
+jReadErrorToString	linum/src/jRead.c	/^char * jReadErrorToString( int error )$/;"	f	typeref:typename:char *
+jReadFindTok	linum/src/jRead.c	/^const char *jReadFindTok( const char *sp, int *tokType )$/;"	f	typeref:typename:const char *
+jReadGetString	linum/src/jRead.c	/^const char * jReadGetString( const char *pJson, struct jReadElement *pElem, char quote )$/;"	f	typeref:typename:const char *
+jReadParam	linum/src/jRead.c	/^const char * jReadParam( const char *pJson, const char *pQuery, struct jReadElement *pResult, in/;"	f	typeref:typename:const char *
+jReadSkipWhitespace	linum/src/jRead.c	/^const char *jReadSkipWhitespace( const char *sp )$/;"	f	typeref:typename:const char *
+jReadStrcmp	linum/src/jRead.c	/^int jReadStrcmp( struct jReadElement *j1, struct jReadElement *j2 )$/;"	f	typeref:typename:int
+jReadTextLen	linum/src/jRead.c	/^int jReadTextLen( const char *pJson )$/;"	f	typeref:typename:int
+jReadTypeStrings	linum/src/jRead.c	/^char *jReadTypeStrings[]={$/;"	v	typeref:typename:char * []
+jReadTypeToString	linum/src/jRead.c	/^char *jReadTypeToString( int dataType )$/;"	f	typeref:typename:char *
+jRead_atof	linum/src/jRead.c	/^const char * jRead_atof( const char *p, double *result)$/;"	f	typeref:typename:const char *
+jRead_atoi	linum/src/jRead.c	/^const char *jRead_atoi( const char *p, unsigned int *result )$/;"	f	typeref:typename:const char *
+jRead_atol	linum/src/jRead.c	/^const char *jRead_atol( const char *p, long *result )$/;"	f	typeref:typename:const char *
+jRead_atoll	linum/src/jRead.c	/^const char *jRead_atoll( const char *p, long long *result )$/;"	f	typeref:typename:const char *
+jRead_double	linum/src/jRead.c	/^double jRead_double( const char *pJson, const char *pQuery, int *queryParams )$/;"	f	typeref:typename:double
+jRead_int	linum/src/jRead.c	/^int jRead_int( const char *pJson, const char *pQuery, int *queryParams )$/;"	f	typeref:typename:int
+jRead_long	linum/src/jRead.c	/^long jRead_long( const char *pJson, const char *pQuery, int *queryParams )$/;"	f	typeref:typename:long
+jRead_longlong	linum/src/jRead.c	/^long long jRead_longlong( const char *pJson, const char *pQuery, int *queryParams )$/;"	f	typeref:typename:long long
+jRead_strcpy	linum/src/jRead.c	/^char *jRead_strcpy( char *destBuffer, int destLength, struct jReadElement *pElement )$/;"	f	typeref:typename:char *
+jRead_string	linum/src/jRead.c	/^int jRead_string( const char *pJson, const char *pQuery, char *pDest, int destlen, int *queryPar/;"	f	typeref:typename:int
+jWriteControl	linum/src/jWrite.h	/^struct jWriteControl{$/;"	s
+json_search_param	linum/src/database_settings.c	/^static int json_search_param(const char *buf, const char *query,$/;"	f	typeref:typename:int	file:
+jwArr_array	linum/src/jWrite.c	/^void jwArr_array( JWC_DECL0 )$/;"	f	typeref:typename:void
+jwArr_bool	linum/src/jWrite.c	/^void jwArr_bool( JWC_DECL int oneOrZero )$/;"	f	typeref:typename:void
+jwArr_double	linum/src/jWrite.c	/^void jwArr_double( JWC_DECL double value )$/;"	f	typeref:typename:void
+jwArr_int	linum/src/jWrite.c	/^void jwArr_int( JWC_DECL int value )$/;"	f	typeref:typename:void
+jwArr_null	linum/src/jWrite.c	/^void jwArr_null( JWC_DECL0 )$/;"	f	typeref:typename:void
+jwArr_object	linum/src/jWrite.c	/^void jwArr_object( JWC_DECL0 )$/;"	f	typeref:typename:void
+jwArr_raw	linum/src/jWrite.c	/^void jwArr_raw( JWC_DECL const char *rawtext )$/;"	f	typeref:typename:void
+jwArr_string	linum/src/jWrite.c	/^void jwArr_string( JWC_DECL const char *value )$/;"	f	typeref:typename:void
+jwClose	linum/src/jWrite.c	/^int jwClose( JWC_DECL0 )$/;"	f	typeref:typename:int
+jwEnd	linum/src/jWrite.c	/^int jwEnd( JWC_DECL0 )$/;"	f	typeref:typename:int
+jwErrorPos	linum/src/jWrite.c	/^int jwErrorPos( JWC_DECL0 )$/;"	f	typeref:typename:int
+jwErrorToString	linum/src/jWrite.c	/^char *jwErrorToString( int err )$/;"	f	typeref:typename:char *
+jwNodeStack	linum/src/jWrite.h	/^struct jwNodeStack{$/;"	s
+jwNodeType	linum/src/jWrite.h	/^enum jwNodeType{$/;"	g
+jwObj_array	linum/src/jWrite.c	/^void jwObj_array( JWC_DECL const char *key )$/;"	f	typeref:typename:void
+jwObj_bool	linum/src/jWrite.c	/^void jwObj_bool( JWC_DECL const char *key, int oneOrZero )$/;"	f	typeref:typename:void
+jwObj_double	linum/src/jWrite.c	/^void jwObj_double( JWC_DECL const char *key, double value )$/;"	f	typeref:typename:void
+jwObj_double_with_precision	linum/src/jWrite.c	/^void jwObj_double_with_precision( JWC_DECL const char *key, double value, int prec )$/;"	f	typeref:typename:void
+jwObj_int	linum/src/jWrite.c	/^void jwObj_int( JWC_DECL const char *key, int value )$/;"	f	typeref:typename:void
+jwObj_null	linum/src/jWrite.c	/^void jwObj_null( JWC_DECL const char *key )$/;"	f	typeref:typename:void
+jwObj_object	linum/src/jWrite.c	/^void jwObj_object( JWC_DECL const char *key )$/;"	f	typeref:typename:void
+jwObj_raw	linum/src/jWrite.c	/^void jwObj_raw( JWC_DECL const char *key, const char *rawtext )$/;"	f	typeref:typename:void
+jwObj_string	linum/src/jWrite.c	/^void jwObj_string( JWC_DECL const char *key, const char *value )$/;"	f	typeref:typename:void
+jwOpen	linum/src/jWrite.c	/^void jwOpen( JWC_DECL char *buffer, unsigned int buflen, $/;"	f	typeref:typename:void
+jwPop	linum/src/jWrite.c	/^enum jwNodeType jwPop( JWC_DECL0 )$/;"	f	typeref:enum:jwNodeType
+jwPretty	linum/src/jWrite.c	/^void jwPretty( JWC_DECL0 )$/;"	f	typeref:typename:void
+jwPush	linum/src/jWrite.c	/^void jwPush( JWC_DECL enum jwNodeType nodeType )$/;"	f	typeref:typename:void
+jwPutch	linum/src/jWrite.c	/^void jwPutch( JWC_DECL char c )$/;"	f	typeref:typename:void
+jwPutraw	linum/src/jWrite.c	/^void jwPutraw( JWC_DECL const char *str )$/;"	f	typeref:typename:void
+jwPutstr	linum/src/jWrite.c	/^void jwPutstr( JWC_DECL const char *str )$/;"	f	typeref:typename:void
+leds	linum/linum.dts	/^	leds: leds {$/;"	l
+lfs_storage_mnt	linum/src/database_settings.c	/^static struct fs_mount_t lfs_storage_mnt = {$/;"	v	typeref:struct:fs_mount_t	file:
+littlefs_flash_erase	linum/src/database_settings.c	/^static int littlefs_flash_erase(unsigned int id)$/;"	f	typeref:typename:int	file:
+littlefs_mount	linum/src/database_settings.c	/^static int littlefs_mount(struct fs_mount_t *mp)$/;"	f	typeref:typename:int	file:
+login_shell_init	linum/src/login_shell.c	/^void login_shell_init(void)$/;"	f	typeref:typename:void
+mac	linum/src/network.h	/^  char mac[COMM_LENGTH_MAC_ADDR];$/;"	m	struct:wifi_network_connection	typeref:typename:char[]
+main	linum/src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+modp_dtoa2	linum/src/jWrite.c	/^void modp_dtoa2(double value, char* str, int prec)$/;"	f	typeref:typename:void
+modp_itoa10	linum/src/jWrite.c	/^void modp_itoa10(int32_t value, char* str)$/;"	f	typeref:typename:void
+mountpoint	linum/src/database_settings.c	/^	struct fs_mount_t *mountpoint =$/;"	v	typeref:struct:fs_mount_t *
+net	linum/src/network.h	/^  struct network net;  $/;"	m	struct:wifi_network_settings	typeref:struct:network
+net	linum/src/network.h	/^  struct network net;$/;"	m	struct:wifi_network_connection	typeref:struct:network
+netmask	linum/src/network.h	/^  char netmask[COMM_LENGTH_ADDR_IPV4];$/;"	m	struct:network	typeref:typename:char[]
+network	linum/src/network.h	/^  struct wifi_network_info network[COMM_MAX_NETWORK_LIST_SIZE];$/;"	m	struct:wifi_network_scan_list	typeref:struct:wifi_network_info[]
+network	linum/src/network.h	/^struct network$/;"	s
+network	linum/src/params_common.h	/^    struct wifi_network_settings network;    $/;"	m	struct:wifi_settings	typeref:struct:wifi_network_settings
+network_list_size	linum/src/network.h	/^  uint16_t network_list_size;$/;"	m	struct:wifi_network_scan_list	typeref:typename:uint16_t
+nodeStack	linum/src/jWrite.h	/^	struct jwNodeStack nodeStack[JWRITE_STACK_DEPTH];	\/\/ stack of array\/object nodes$/;"	m	struct:jWriteControl	typeref:struct:jwNodeStack[]
+nodeType	linum/src/jWrite.h	/^	enum jwNodeType nodeType;$/;"	m	struct:jwNodeStack	typeref:enum:jwNodeType
+pValue	linum/src/jRead.h	/^	const void * pValue;	\/\/ pointer to value string in JSON text$/;"	m	struct:jReadElement	typeref:typename:const void *
+password	linum/src/network.h	/^  char password[COMM_SIZE_PASSWORD_BUFF];$/;"	m	struct:wifi_network	typeref:typename:char[]
+port	linum/src/network.h	/^  uint16_t port;$/;"	m	struct:connection_settings	typeref:typename:uint16_t
+pow10	linum/src/jWrite.c	/^static const double pow10[] = {1, 10, 100, 1000, 10000, 100000, 1000000,$/;"	v	typeref:typename:const double[]	file:
+pwm12	linum/linum.dts	/^	pwm12: pwm {$/;"	l
+red_led	linum/linum.dts	/^		red_led: led_1 {$/;"	l	label:leds
+rssi	linum/src/network.h	/^  int8_t rssi; $/;"	m	struct:wifi_network_info	typeref:typename:int8_t
+scratch_partition	linum/linum.dts	/^		scratch_partition: partition@c0000 {$/;"	l
+sdram1	linum/linum.dts	/^	sdram1: sdram@c0000000 {$/;"	l
+server	linum/src/params_common.h	/^    struct connection_settings server;$/;"	m	struct:app_settings	typeref:struct:connection_settings
+show_reset_cause	linum/src/main.c	/^static void show_reset_cause(void)$/;"	f	typeref:typename:void	file:
+slot0_partition	linum/linum.dts	/^		slot0_partition: partition@40000 {$/;"	l
+slot1_partition	linum/linum.dts	/^		slot1_partition: partition@80000 {$/;"	l
+sntp	linum/src/network.h	/^  char sntp[COMM_SIZE_SNTP_BUFF];$/;"	m	struct:network	typeref:typename:char[]
+sntp2	linum/src/network.h	/^  char sntp2[COMM_SIZE_SNTP_BUFF];$/;"	m	struct:network	typeref:typename:char[]
+ssid	linum/src/network.h	/^  char ssid[COMM_SIZE_SSID_BUFF];$/;"	m	struct:wifi_network	typeref:typename:char[]
+ssid	linum/src/network.h	/^  char ssid[COMM_SIZE_SSID_BUFF];$/;"	m	struct:wifi_network_connection	typeref:typename:char[]
+ssid	linum/src/network.h	/^  char ssid[COMM_SIZE_SSID_BUFF];$/;"	m	struct:wifi_network_info	typeref:typename:char[]
+stackpos	linum/src/jWrite.h	/^	int stackpos;$/;"	m	struct:jWriteControl	typeref:typename:int
+storage_partition	linum/linum.dts	/^		storage_partition: partition@20000 {$/;"	l
+strreverse	linum/src/jWrite.c	/^static void strreverse(char* begin, char* end)$/;"	f	typeref:typename:void	file:
+tmpbuf	linum/src/jWrite.h	/^	char tmpbuf[32];					\/\/ local buffer for int\/double convertions$/;"	m	struct:jWriteControl	typeref:typename:char[32]
+update	linum/src/params_common.h	/^    struct update_settings update;$/;"	m	struct:database_settings	typeref:struct:update_settings
+update_settings	linum/src/params_common.h	/^struct update_settings$/;"	s
+valid_digit	linum/src/jRead.c	/^#define valid_digit(/;"	d	file:
+wakeupTimeSec	linum/src/params_common.h	/^    uint32_t wakeupTimeSec;$/;"	m	struct:app_settings	typeref:typename:uint32_t
+wifi	linum/src/params_common.h	/^    struct wifi_settings wifi;    $/;"	m	struct:database_settings	typeref:struct:wifi_settings
+wifi_network	linum/src/network.h	/^struct wifi_network$/;"	s
+wifi_network_connection	linum/src/network.h	/^struct wifi_network_connection$/;"	s
+wifi_network_info	linum/src/network.h	/^struct wifi_network_info$/;"	s
+wifi_network_scan_list	linum/src/network.h	/^struct wifi_network_scan_list $/;"	s
+wifi_network_settings	linum/src/network.h	/^struct wifi_network_settings$/;"	s
+wifi_settings	linum/src/params_common.h	/^struct wifi_settings$/;"	s
+wifi_settings_init	linum/src/network.h	/^static inline void wifi_settings_init(struct wifi_network_settings *settings)$/;"	f	typeref:typename:void
+zephyr_udc0	linum/linum.dts	/^zephyr_udc0: &usbotg_fs {$/;"	l

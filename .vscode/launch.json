@@ -1,0 +1,39 @@
+    {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "J-Link - Debug",
+                "device": "stm32h753zi",
+                "cwd": "${workspaceFolder}",
+                "executable": "build/zephyr/zephyr.elf",
+                "request": "launch",
+                "type": "cortex-debug",
+                "runToEntryPoint": "main",
+                "servertype": "jlink",
+                "liveWatch": {
+                    "enabled": true,
+                    "samplesPerSecond": 4
+                },
+                "preLaunchTask": "west_build_debug",
+            },
+            {
+                "name": "ST-Link - Debug",
+                "device": "stm32h753zi",
+                "cwd": "${workspaceFolder}",
+                "executable": "build/zephyr/zephyr.elf",
+                "interface": "swd",
+                "request": "attach",
+                "type": "cortex-debug",
+                "runToEntryPoint": "main",
+                "servertype": "stlink",
+                // "liveWatch": {
+                //     "enabled": true,
+                //     "samplesPerSecond": 4
+                // },
+                // "gdbPath": "${userHome}/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+                "preLaunchTask": "seq_build_debug_and_stlink_flash",
+                // "preLaunchTask": "west_build_debug",
+                "showDevDebugOutput": "raw"
+            }
+        ]
+    }

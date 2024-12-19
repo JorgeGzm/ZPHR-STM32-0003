@@ -1,0 +1,88 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			// USING WITH MCUBOOT DISABLE
+			"hide": false,
+			"label": "west_build_production",
+			"type": "shell",
+			"group": "build",
+			"command": "west",
+			"args": [
+				"build",
+				"--sysbuild",
+				"-palways",
+				"-blinum",
+				"./",
+				"--",
+				"-DBOARD_ROOT=${workspaceFolder}/bsp",
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			// USING WITH MCUBOOT DISABLE
+			"hide": false,
+			"label": "west_build_debug",
+			"type": "shell",
+			"group": "build",
+			"command": "west",
+			"args": [
+				"build",
+				"--sysbuild",
+				"-palways",
+				"-blinum_dev",
+				"./",
+				"--",
+				"-DBOARD_ROOT=${workspaceFolder}/bsp",
+				"-DBUILD_TYPE=debug"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"label": "west_flash_jlink",
+			"type": "shell",
+			"command": "west",
+			"args": [
+				"flash",
+				"--runner",
+				"jlink"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"label": "west_flash_stlink",
+			"type": "shell",
+			"command": "west",
+			"args": [
+				"flash",
+				"--runner",
+				"stm32cubeprogrammer"
+			],
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"label": "seq_build_debug_and_jlink_flash",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"west_build_debug",
+				"west_flash_jlink"
+			]
+		},
+		{
+			"label": "seq_build_debug_and_stlink_flash",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"west_build_debug",
+				"west_flash_stlink"
+			]
+		}
+	]
+}
