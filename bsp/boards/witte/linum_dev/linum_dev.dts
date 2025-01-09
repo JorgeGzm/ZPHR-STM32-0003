@@ -21,6 +21,8 @@
 		zephyr,dtcm = &dtcm;
 		zephyr,code-partition = &slot0_partition;
 		zephyr,canbus = &fdcan1;
+		zephyr,display = &ltdc;
+		zephyr,flash-controller = &w25q128jv;
 	};
 
 	sdram1: sdram@c0000000 {
@@ -65,6 +67,9 @@
 		output-high;
 	};
 };
+
+// pi2 power fdcan 1
+// pi3 power fdcan 2
 
 &gpioi {
 	status = "okay";
@@ -158,14 +163,14 @@
 };
 
 &uart4 {
-	pinctrl-0 = <&uart4_tx_pb9 &uart4_rx_pb8>;
+	pinctrl-0 = <&uart4_tx_pb9 &uart4_rx_pb8 &uart4_de_pa15>;
 	pinctrl-names = "default";
 	current-speed = <115200>;
 	status = "okay";
 };
 
 &usart6 {
-	pinctrl-0 = <&usart6_tx_pc6 &usart6_rx_pc7>;
+	pinctrl-0 = <&usart6_tx_pc6 &usart6_rx_pc7 &usart6_de_pg12>;
 	pinctrl-names = "default";
 	current-speed = <115200>;
 	status = "okay";
@@ -389,5 +394,34 @@ zephyr_udc0: &usbotg_fs {
 			reg = <0x000c0000 DT_SIZE_K(128)>;
 		};
 
+	};
+};
+
+
+&quadspi {
+	pinctrl-0 = <&quadspi_clk_pb2 &quadspi_bk1_ncs_pb6
+	&quadspi_bk1_io0_pf8 &quadspi_bk1_io1_pf9
+	&quadspi_bk1_io2_pf7 &quadspi_bk1_io3_pf6>;
+	pinctrl-names = "default";
+	status = "okay";
+
+	w25q128jv: qspi-nor-flash@90000000 {
+		compatible = "st,stm32-qspi-nor";
+		reg = <0x90000000 DT_SIZE_M(16)>;
+		qspi-max-frequency = <DT_FREQ_M(50)>;
+		spi-bus-width = <4>;
+		writeoc = "PP_1_1_4";
+		status = "okay";
+
+		partitions {
+			compatible = "fixed-partitions";
+			#address-cells = <1>;
+			#size-cells = <1>;
+
+			partition@0 {
+				label = "nor";
+				reg = <0x00000000 DT_SIZE_M(16)>;
+			};
+		};
 	};
 };
